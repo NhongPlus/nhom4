@@ -1,7 +1,7 @@
 .nenanh {
   position: relative;
   z-index: 2;
-  padding: 110px 0 210px;
+  padding: 110px 0 20px;
   /* background-color: #eacbcb; */
   margin: 0px;
 }
@@ -774,4 +774,23 @@ div.img-card {
 .copy-right p {
   margin-top: 15px;
   font-size: 14px
+}
+
+
+/* responsive của v */
+@media only screen and (max-width: 1036px){
+  .khung1d {
+      display: none;
+  }
+  .khung1d {
+    display: none;
+}
+}
+@media only screen and (max-width: 696px){
+  .khung1d {
+      display: block;
+  }
+  .khung1d {
+    display: block;
+}
 }

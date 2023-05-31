@@ -252,39 +252,8 @@ a {
   align-items: center;
 }
 
-.menu {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 0 38px;
-  list-style: none;
-}
 
-.menu-link {
-  color: inherit;
-  position: relative;
-  transition: all 0.2s linear;
-  display: block;
-}
 
-.menu-link:before {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  height: 2px;
-  background-color: #ff7d00;
-  width: 0;
-  transition: all 0.2s linear;
-}
-
-.menu-link:hover {
-  color: #ff7d00;
-}
-
-.menu-link:hover:before {
-  width: 100%;
-}
 
 @media screen and (max-width: 1023px) {
   .auth {
@@ -337,31 +306,6 @@ a {
   }
 }
 
-.menu-link {
-  color: inherit;
-  position: relative;
-  transition: all 0.2s linear;
-  display: block;
-}
-
-.menu-link:before {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  height: 2px;
-  background-color: #ff7d00;
-  width: 0;
-  transition: all 0.2s linear;
-}
-
-.menu-link:hover {
-  color: #ff7d00;
-}
-
-.menu-link:hover:before {
-  width: 100%;
-}
 
 .auth {
   display: flex;
